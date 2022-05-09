@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Squada+One&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Changa];
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer
+    }
+
+}
