@@ -2,6 +2,7 @@
   "name": "portfolio-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://paulkalait.github.io/reactportfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -13,7 +14,7 @@
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://paulkalait.github.io/reactportfolio/",
+ 
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
