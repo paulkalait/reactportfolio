@@ -34,7 +34,6 @@ export const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        FaGoogle,
         <button className="text-white border-2 px-5 py-3 mx-auto mt-4 flex items-center hover:bg-white hover:text-black hover:duration-300">
           Reach Out <FaPaperPlane className="inline ml-2" />
         </button>

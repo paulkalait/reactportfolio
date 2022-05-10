@@ -29,10 +29,10 @@ export const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://drive.google.com/file/d/1SDL_HQ4jH4eF8VQvUx0gRcrX7w-ZCXjn/view">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaYoutube/></button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/paulkalait/employee-tracker">
                   <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
@@ -41,12 +41,12 @@ export const Work = () => {
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
-              Employee MySql Tracker</span>
+              evaluEAT</span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://boiling-brook-46458.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/paulkalait/evalueat-seperate">
                   <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
@@ -57,12 +57,12 @@ export const Work = () => {
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
-              Employee MySql Tracker</span>
+              wearshare</span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://wear-share.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/barkleylikecharles/evalueat">
                   <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
@@ -73,12 +73,12 @@ export const Work = () => {
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
-              Employee MySql Tracker</span>
+              Weather Dashboard</span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://paulkalait.github.io/weather-dashboard/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/paulkalait/weather-dashboard">
                   <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>

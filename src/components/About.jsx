@@ -22,7 +22,7 @@ export const About = () => {
           <div>
             <p>
               I am currently attending UCONN coding bootcamp to become a full
-              stack developer. Prior I graduated from central Connecticut state
+              stack developer. Prior I graduated from Central Connecticut state
               university in a degree in finance and worked in tax; however,
               coding is where I believe I found my passion. It requires an
               endless journey of learning and persistence which I value highly.
