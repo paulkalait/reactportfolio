@@ -8,22 +8,21 @@
 @layer base {
     body {
         @apply font-[Changa];
-        @apply bg-black;
+        @apply bg-slate-900;
     }
     li{
         @apply px-4;
-        @apply text-white;
+        @apply text-slate-400;
         @apply cursor-pointer
+    }
+    li:hover{
+        @apply text-white
        
     }
    
 
 }
-.menu-items:hover{
-    color: white;
-    border-bottom: 4px solid white;
-    
-}
+
 .content-div{
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +33,7 @@
  opacity: 1;
 }
 .content-div:hover {
-
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

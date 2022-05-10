@@ -6,7 +6,7 @@ import weatherdash from "../assets/weatherdash.png"
 
 export const Work = () => {
   return (
-    <div name="work" className="w-full  md:mt-80 text-gray-300 bg-black">
+    <div name="work" className="w-full  md:mt-80 text-gray-300 bg-slate-900">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className='pb-8'>
           <p className="text-4xl font-bold inline border-b-4 text-white border-white">Work</p>
@@ -15,7 +15,7 @@ export const Work = () => {
 
   {/* Grid Container right bellow */}
         <div 
-        className="grid sm:grid-cols-2 gap-4">
+        className="grid sm:grid-cols-2 gap-6">
 
 
           <div style={{backgroundImage: `url(${employeeTracker})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">

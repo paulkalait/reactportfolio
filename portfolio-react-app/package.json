@@ -13,7 +13,10 @@
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://paulkalait.github.io/reactportfolio/portfolio-react-app",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -8,7 +8,7 @@ import REACT from "../assets/react.png";
 
 const Skills = () => {
   return (
-    <div className="bg-black w-full mt-20" name="skills">
+    <div className="bg-slate-900 w-full mt-20" name="skills">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
         <div>
