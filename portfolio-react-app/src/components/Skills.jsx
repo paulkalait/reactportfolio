@@ -19,27 +19,27 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
-          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500">
+          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 ">
             <img className="w-20 mx-auto" src={HTML} alt="html icon" />
             <p className="my-3">HTML</p>
           </div>
-          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500">
+          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={JS} alt="html icon" />
             <p className="my-3">JS</p>
           </div>
-          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500">
+          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={CSS} alt="html icon" />
             <p className="my-3">CSS</p>
           </div>
-          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500">
+          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={REACT} alt="html icon" />
             <p className="my-3">REACT</p>
           </div>
-          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500">
+          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={MYSQL} alt="html icon" />
             <p className="my-3">MySQL</p>
           </div>{" "}
-          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500">
+          <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={NODE} alt="html icon" />
             <p className="my-3">Node.JS</p>
           </div>

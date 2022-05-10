@@ -8,10 +8,22 @@
 @layer base {
     body {
         @apply font-[Changa];
+        @apply bg-black;
     }
     li{
         @apply px-4;
         @apply cursor-pointer
     }
 
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.content-div:hover {
+    opacity: .5!important;
 }
