@@ -14,9 +14,9 @@ const Home = () => {
     <div>
     <button className='text-white border-2 px-5 py-2 flex items-center hover:bg-white hover:text-black hover:duration-300'>
         View Work
-    // <span className='group-hover:bg-white'>
-    // <HiArrowNarrowRight className='ml-3' />
-    // </span>
+    <span className='group-hover:bg-white'>
+    <HiArrowNarrowRight className='ml-3' />
+    </span>
     </button>
    
     </div>
