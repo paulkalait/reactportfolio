@@ -12,7 +12,17 @@
     }
     li{
         @apply px-4;
+        @apply text-white;
         @apply cursor-pointer
+       
+    }
+    li:hover{
+        @apply border-4; 
+        @apply border-white; 
+        @apply bg-white;
+        @apply text-black
+     
+        
     }
 
 }
@@ -26,4 +36,9 @@
 
 .content-div:hover {
     opacity: .5!important;
+}
+.navBar{
+    border-bottom: solid .2rem;
+    border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
+
 }
