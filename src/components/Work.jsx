@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  FaGithub,
+  FaLink,
+  FaYoutube
+} from "react-icons/fa";
 import employeeTracker from "../assets/employeeTracker.png";
 import evalueat from "../assets/evalueatsc.png"
 import wearshare from "../assets/wearshare.png"
@@ -25,10 +30,10 @@ export const Work = () => {
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">Video</button>
+                  <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaYoutube/></button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-gray-700 font-bold text-lg">Code</button>
+                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
             </div>
@@ -39,10 +44,10 @@ export const Work = () => {
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">Video</button>
+                  <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-gray-700 font-bold text-lg">Code</button>
+                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
             </div>
@@ -55,10 +60,10 @@ export const Work = () => {
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">Video</button>
+                  <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-gray-700 font-bold text-lg">Code</button>
+                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
             </div>
@@ -71,10 +76,10 @@ export const Work = () => {
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">Video</button>
+                  <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-gray-700 font-bold text-lg">Code</button>
+                  <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
             </div>
