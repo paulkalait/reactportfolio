@@ -21,7 +21,7 @@ export const Work = () => {
           <div style={{backgroundImage: `url(${employeeTracker})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-bold text-white tracking-wider work-title'>
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -35,7 +35,7 @@ export const Work = () => {
           </div> <div style={{backgroundImage: `url(${evalueat})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-bold text-white tracking-wider work-title'>
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -50,8 +50,8 @@ export const Work = () => {
 
           <div style={{backgroundImage: `url(${wearshare})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
           {/* Hover Effects */}
-            <div className="opacity-0 group hover:opacity-100">
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div>
+              <span className='text-2xl font-bold text-white tracking-wider work-title'>
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -67,7 +67,7 @@ export const Work = () => {
           <div style={{backgroundImage: `url(${weatherdash})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-bold text-white tracking-wider work-title'>
               Employee MySql Tracker</span>
               <div className="pt-8 text-center">
                 <a href="/">
