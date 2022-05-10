@@ -16,7 +16,7 @@
   "homepage": "https://paulkalait.github.io/reactportfolio/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d master -d build",
+    "deploy": "gh-pages -d main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
   }
