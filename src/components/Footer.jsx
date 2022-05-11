@@ -9,7 +9,7 @@ import {
 
 export const Footer = () => {
   return (
-    <div className='w-full mt-60  bg-slate-900 md:hidden'>
+    <div className='w-full   bg-slate-900 md:hidden'>
     <div className='flex flex-col  items-center justify-center w-full icons-footer'>
     <div className='my-3 '>
     <a href='https://www.linkedin.com/in/paul-kalaitzidis-393555196' className='linkedin'><FaLinkedin/> </a></div>

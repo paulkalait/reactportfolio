@@ -22,6 +22,10 @@
    
 
 }
+.work-buttons{
+    
+}
+
 
 .icons-footer{
     font-size: 55px;
@@ -53,21 +57,21 @@
 
 
 .content-div{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-}
-.work-title:hover{
- opacity: 1;
-}
-.content-div:hover {
     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
-    opacity: .3 ;
+}
+
+.content-div:hover {
+  
+    transition: .3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    opacity: .5;
 }
 
 .navBar{
