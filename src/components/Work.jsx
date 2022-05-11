@@ -27,7 +27,7 @@ export const Work = () => {
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
-              Employee MySql Tracker</span>
+              </span>
               <div className="pt-8 text-center">
                 <a href="https://drive.google.com/file/d/1SDL_HQ4jH4eF8VQvUx0gRcrX7w-ZCXjn/view">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaYoutube/></button>
@@ -41,7 +41,7 @@ export const Work = () => {
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
-              evaluEAT</span>
+              </span>
               <div className="pt-8 text-center">
                 <a href="https://boiling-brook-46458.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
@@ -57,7 +57,7 @@ export const Work = () => {
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
-              wearshare</span>
+              </span>
               <div className="pt-8 text-center">
                 <a href="https://wear-share.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>

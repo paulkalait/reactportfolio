@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[10%] flex justify-between items-center px-4 bg-black text-gray-500 navBar">
       <div>
-      <a href="/">
+      <a href="home">
       <img src={Logo} alt="Logo Image" style={{ width: "62px"}}/>
       </a>
         
@@ -65,7 +65,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center text-center"
         }
       >
         <ul>
