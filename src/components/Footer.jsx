@@ -16,7 +16,7 @@ export const Footer = () => {
     <div  className='my-3'>
     <a href='https://github.com/paulkalait' className='github'><FaGithub/></a></div>
     <div  className='my-3'>
-    <a href='mailto:kalaitzidispaul@gmail.com' className='google'><FaGoogle/></a></div>
+    <a  href="mailto:kalaitzidispaul@gmail.com" className='google'><FaGoogle/></a></div>
     <div  className='my-3'>
     <a href={CV} className='resume'><BsFillPersonLinesFill/></a></div>
     </div> 
