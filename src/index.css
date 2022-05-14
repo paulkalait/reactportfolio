@@ -22,9 +22,6 @@
    
 
 }
-.work-buttons{
-    
-}
 
 
 .icons-footer{
@@ -57,7 +54,7 @@
 
 
 .content-div{
-    
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,8 +62,8 @@
 }
 
 .content-div:hover {
-  
     transition: .3s;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -85,3 +82,17 @@
     background-position: center;
 }
 
+@media screen and (max-width: 850px) {
+    .content-div{
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        background-position: center;
+        height: 400px;
+    }
+
+    .content-div:hover{
+        background-size: 100% 100%;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../assets/Paul_K._CV_WD_PDF.pdf"
+import CV from "../assets/Paul's Resume FullStack.pdf"
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {
     FaGithub,
