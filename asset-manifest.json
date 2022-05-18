@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.d1af8ee7.css",
-    "main.js": "/reactportfolio/static/js/main.cf440b47.js",
+    "main.css": "/reactportfolio/static/css/main.65afceaf.css",
+    "main.js": "/reactportfolio/static/js/main.72f93a7d.js",
     "static/media/evalueatsc.png": "/reactportfolio/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
     "static/media/space.jpg": "/reactportfolio/static/media/space.ee2922854adec9e72508.jpg",
     "static/media/weatherdash.png": "/reactportfolio/static/media/weatherdash.24d33b45f7e13241c072.png",
     "static/media/Paul's Resume FullStack.pdf": "/reactportfolio/static/media/Paul's Resume FullStack.1913b710abe0e42497b1.pdf",
     "static/media/react.png": "/reactportfolio/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/finn-app.png": "/reactportfolio/static/media/finn-app.57196f7bc4fe45fc5b99.png",
     "static/media/employeeTracker.png": "/reactportfolio/static/media/employeeTracker.74d66473329007903392.png",
     "static/media/csslogo.png": "/reactportfolio/static/media/csslogo.84de5dab5fab27f4161c.png",
     "static/media/node.js.png": "/reactportfolio/static/media/node.js.8e341cc00e4ec40c6a27.png",
     "static/media/mysql.png": "/reactportfolio/static/media/mysql.a0aeb1286b61007febb1.png",
     "index.html": "/reactportfolio/index.html",
     "static/media/jslogo2.svg": "/reactportfolio/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.d1af8ee7.css.map": "/reactportfolio/static/css/main.d1af8ee7.css.map",
-    "main.cf440b47.js.map": "/reactportfolio/static/js/main.cf440b47.js.map"
+    "main.65afceaf.css.map": "/reactportfolio/static/css/main.65afceaf.css.map",
+    "main.72f93a7d.js.map": "/reactportfolio/static/js/main.72f93a7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1af8ee7.css",
-    "static/js/main.cf440b47.js"
+    "static/css/main.65afceaf.css",
+    "static/js/main.72f93a7d.js"
   ]
 }
