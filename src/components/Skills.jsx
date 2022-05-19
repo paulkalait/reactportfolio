@@ -3,6 +3,7 @@ import HTML from "../assets/htmlbadge.png";
 import CSS from "../assets/csslogo.png";
 import JS from "../assets/jslogo2.svg";
 import MYSQL from "../assets/mysql.png";
+import MONGO from '../assets/mongodb1.png'
 import NODE from "../assets/node.js.png";
 import REACT from "../assets/react.png";
 
@@ -36,8 +37,8 @@ const Skills = () => {
             <p className="my-3">REACT</p>
           </div>
           <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
-            <img className="w-20 mx-auto" src={MYSQL} alt="html icon" />
-            <p className="my-3">MySQL</p>
+            <img className="w-20 mx-auto" src={MONGO} alt="html icon" />
+            <p className="my-3">MongoDB</p>
           </div>{" "}
           <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={NODE} alt="html icon" />
