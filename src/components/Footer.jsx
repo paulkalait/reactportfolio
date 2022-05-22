@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/Paul's Resume FullStack.pdf";
+import CV from "../assets/Paul's CV 2022.pdf";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
 

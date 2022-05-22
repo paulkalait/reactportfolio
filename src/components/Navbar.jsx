@@ -6,11 +6,10 @@ import {
   FaLinkedin,
   FaGoogle,
 } from "react-icons/fa";
-import { HiOutlineMail, hiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/pkblack.png";
 import { Link } from "react-scroll";
-import CV from "../assets/Paul's Resume FullStack.pdf"
+import CV from "../assets/Paul's CV 2022.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

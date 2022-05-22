@@ -2,7 +2,6 @@ import React from "react";
 import HTML from "../assets/htmlbadge.png";
 import CSS from "../assets/csslogo.png";
 import JS from "../assets/jslogo2.svg";
-import MYSQL from "../assets/mysql.png";
 import MONGO from '../assets/mongodb1.png'
 import NODE from "../assets/node.js.png";
 import REACT from "../assets/react.png";
