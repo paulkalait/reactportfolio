@@ -30,7 +30,7 @@ export const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
               </span>
               <div className="pt-8 text-center">
-                <a href=" https://boiling-brook-46458.herokuapp.com/">
+                <a href="https://rocky-escarpment-91263.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg work-buttons"><FaLink/></button>
                 </a>
                 <a href="https://github.com/paulkalait/evalueat-seperate">
