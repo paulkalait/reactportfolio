@@ -16,10 +16,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[10%] flex justify-between items-center px-4 bg-black text-gray-500 navBar">
+    <div className="fixed w-full h-[12%] flex justify-between items-center px-4 bg-black text-gray-500 navBar z-50">
       <div>
       <a href="home">
-      <img src={Logo} alt="Logo Image" style={{ width: "62px"}}/>
+      <img src={Logo} alt="Logo Image" style={{ width: "60px"}}/>
       </a>
         
       </div>
@@ -101,14 +101,14 @@ const Navbar = () => {
       </div>
 
       {/* Social Icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 z-50">
         <ul>
           <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-white" target="_blank"
               href="https://www.linkedin.com/in/paul-kalaitzidis-393555196"
             >
-              Linkedin <FaLinkedin size={30} />
+              LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">

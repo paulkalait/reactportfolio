@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaPaperPlane } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div
+    <div  data-aos="fade-up" 
       name="contact"
       className="w-full h-screen mt-40 flex justify-center items-center p-4"
     >
@@ -39,8 +44,6 @@ export const Contact = () => {
         </button>
       </form>
     </div>
-    
-   
   );
 };
 

@@ -1,16 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
 import HTML from "../assets/htmlbadge.png";
 import CSS from "../assets/csslogo.png";
 import JS from "../assets/jslogo2.svg";
 import MONGO from '../assets/mongodb1.png'
 import NODE from "../assets/node.js.png";
 import REACT from "../assets/react.png";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Skills = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000})
+    }, [])
+
   return (
     <div className="bg-slate-900 w-full mt-20" name="skills">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
+      <div data-aos="fade-up" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-white">
             Skills

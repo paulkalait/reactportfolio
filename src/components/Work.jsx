@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 import {
   FaGithub,
   FaLink,
@@ -9,11 +9,17 @@ import evalueat from "../assets/evalueatsc.png"
 import wearshare from "../assets/wearshare.png"
 import weatherdash from "../assets/weatherdash.png"
 import finnApp from '../assets/finn-app.png'
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 export const Work = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000})
+    }, [])
+
   return (
     <div name="work" className="w-full  md:mt-80 text-gray-300 bg-slate-900 mt-52">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div  data-aos="fade-up" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className='pb-8'>
           <p className="text-4xl font-bold inline border-b-4 text-white border-white">Work</p>
           <p className="py-8">Check out some of my recent projects</p>

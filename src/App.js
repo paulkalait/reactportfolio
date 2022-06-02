@@ -6,12 +6,16 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
+
 function App() {
+ 
+
   return (
     <div>
       <Navbar />
       <Home />
-      <About />
+      <About/>
       <Skills />
       <Work />
       <Contact />

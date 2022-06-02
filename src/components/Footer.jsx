@@ -6,26 +6,26 @@ import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
 export const Footer = () => {
   return (
     <div className="w-full   bg-slate-900 md:hidden">
-      <div className="flex flex-col  items-center justify-center w-full icons-footer">
-        <div className="my-3 ">
+      <div className="flex flex-row  items-center justify-center w-full icons-footer ">
+        <div className="my-3 mx-4  mt-20 ">
           <a
             href="https://www.linkedin.com/in/paul-kalaitzidis-393555196"
             className="linkedin"
           >
-            <FaLinkedin />{" "}
+            <FaLinkedin />
           </a>
         </div>
-        <div className="my-3">
+        <div className="my-3 mx-4 mt-20">
           <a href="https://github.com/paulkalait" className="github">
             <FaGithub />
           </a>
         </div>
-        <div className="my-3">
+        <div className="my-3 mx-4  mt-20">
           <a href="mailto:kalaitzidispaul@gmail.com" className="google">
             <FaGoogle />
           </a>
         </div>
-        <div className="my-3">
+        <div className="my-3 mx-4 mt-20">
           <a href={CV} className="resume">
             <BsFillPersonLinesFill />
           </a>
