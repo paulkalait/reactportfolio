@@ -2,6 +2,7 @@ import React from "react";
 import CV from "../assets/Paul's CV 2022.pdf";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
+import { motion } from 'framer-motion'
 
 export const Footer = () => {
   return (
@@ -12,22 +13,35 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/paul-kalaitzidis-393555196"
             className="linkedin"
           >
-            <FaLinkedin />
+          <motion.button
+          whileHover={{ scale: 1.2}}>
+          <FaLinkedin />
+          </motion.button>
           </a>
         </div>
         <div className="my-3 mx-4 mt-20">
           <a href="https://github.com/paulkalait" className="github">
-            <FaGithub />
+          <motion.button
+          whileHover={{ scale: 1.2}}>
+          <FaGithub />
+          </motion.button>
           </a>
         </div>
         <div className="my-3 mx-4  mt-20">
           <a href="mailto:kalaitzidispaul@gmail.com" className="google">
-            <FaGoogle />
+          
+          <motion.button
+          whileHover={{ scale: 1.2}}>
+          <FaGoogle />
+          </motion.button>
           </a>
         </div>
         <div className="my-3 mx-4 mt-20">
           <a href={CV} className="resume">
-            <BsFillPersonLinesFill />
+          <motion.button
+          whileHover={{ scale: 1.2}}>
+          <BsFillPersonLinesFill />
+          </motion.button>
           </a>
         </div>
       </div>

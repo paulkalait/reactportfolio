@@ -27,30 +27,8 @@
 .icons-footer{
     font-size: 40px;
     color: grey;
-    
 }
 
-.linkedin:hover{
-    font-size: 43px;
-    transition: .05s;
-    color: white;
-}
-
-.github:hover{
-    font-size: 43px;
-    transition: .05s;
-    color: white;
-}
-.google:hover{
-    font-size: 43px;
-    transition: .05s;
-    color: white;
-}
-.resume:hover{
-    font-size: 43px;
-    transition: .05s;
-    color: white;
-}
 
 
 .content-div{

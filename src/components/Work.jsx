@@ -2,9 +2,8 @@ import React, { useEffect} from "react";
 import {
   FaGithub,
   FaLink,
-  FaYoutube
+ 
 } from "react-icons/fa";
-import employeeTracker from "../assets/employeeTracker.png";
 import evalueat from "../assets/evalueatsc.png"
 import wearshare from "../assets/wearshare.png"
 import weatherdash from "../assets/weatherdash.png"

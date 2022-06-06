@@ -10,6 +10,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/pkblack.png";
 import { Link } from "react-scroll";
 import CV from "../assets/Paul's CV 2022.pdf"
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
       </a>
         
       </div>
-
+ 
       {/* menu */}
 
       <ul className="menu-items hidden md:flex">
@@ -56,7 +57,7 @@ const Navbar = () => {
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars className="text-white hover:text-lg duration-300"/> : <FaTimes />}
+        {!nav ? <motion.button whileHover={{ scale: 1.2}}> <FaBars className="text-white"/></motion.button> :  <motion.button whileHover={{ scale: 1.2}}> <FaTimes className="text-white"/> </motion.button>}
       </div>
 
       {/* Mobile menu */}
