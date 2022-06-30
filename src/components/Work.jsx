@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa";
 import evalueat from "../assets/evalueatsc.png"
 import wearshare from "../assets/wearshare.png"
-import weatherdash from "../assets/weatherdash.png"
+import rentafit from "../assets/rentafit.jpg"
 import finnApp from '../assets/finn-app.png'
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -59,16 +59,16 @@ export const Work = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${weatherdash})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{backgroundImage: `url(${rentafit})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
           {/* Hover Effects */}
             <div className="opacity-0 group hover:opacity-100 py-9 px-9">
               <span className='text-2xl font-bold text-white tracking-wider work-title'>
               </span>
               <div className="pt-8 text-center">
-                <a href="https://paulkalait.github.io/weather-dashboard/   ">
+                <a href="https://afternoon-forest-49656.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 bg-black text-white font-bold text-lg"><FaLink /></button>
                 </a>
-                <a href=" https://github.com/paulkalait/weather-dashboard  ">
+                <a href="https://github.com/chris-15/Rent-A-Fit-Project3">
                   <button className="text-center rounded-lg px-4 py-3 mx-5 bg-black text-white font-bold text-lg"><FaGithub/></button>
                 </a>
               </div>
