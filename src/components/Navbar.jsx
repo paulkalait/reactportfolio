@@ -9,7 +9,7 @@ import {
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/pkblack.png";
 import { Link } from "react-scroll";
-import CV from "../assets/Paul's CV 2022.pdf"
+import CV from "../assets/Paul's CV 2022 .pdf"
 import { motion } from 'framer-motion'
 
 const Navbar = () => {
