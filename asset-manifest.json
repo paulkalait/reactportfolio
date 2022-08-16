@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.9d51553a.css",
-    "main.js": "/reactportfolio/static/js/main.87d151e6.js",
+    "main.js": "/reactportfolio/static/js/main.4b349c53.js",
     "static/media/evalueatsc.png": "/reactportfolio/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
     "static/media/Paul's CV 2022.pdf": "/reactportfolio/static/media/Paul's CV 2022.534a050f09794e02da25.pdf",
     "static/media/space.jpg": "/reactportfolio/static/media/space.ee2922854adec9e72508.jpg",
+    "static/media/playdate.png": "/reactportfolio/static/media/playdate.9ba0d2b19429131fa280.png",
     "static/media/react.png": "/reactportfolio/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/finn-app.png": "/reactportfolio/static/media/finn-app.57196f7bc4fe45fc5b99.png",
     "static/media/rentafit.jpg": "/reactportfolio/static/media/rentafit.6ad3d0ae4ea4c25052a9.jpg",
@@ -13,10 +14,10 @@
     "index.html": "/reactportfolio/index.html",
     "static/media/jslogo2.svg": "/reactportfolio/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.9d51553a.css.map": "/reactportfolio/static/css/main.9d51553a.css.map",
-    "main.87d151e6.js.map": "/reactportfolio/static/js/main.87d151e6.js.map"
+    "main.4b349c53.js.map": "/reactportfolio/static/js/main.4b349c53.js.map"
   },
   "entrypoints": [
     "static/css/main.9d51553a.css",
-    "static/js/main.87d151e6.js"
+    "static/js/main.4b349c53.js"
   ]
 }
