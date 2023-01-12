@@ -3,8 +3,6 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/pkblack.png";
 import { Link } from "react-scroll";
 import { motion } from 'framer-motion'
 
@@ -16,7 +14,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[65px] flex justify-between items-center px-4 text-slate-900 navBar z-50">
       <div>
       <a href="home">
-      <img src={Logo} alt="LogoImage" style={{ width: "60px"}}/>
+      <span className="text-white text-2xl">PK</span>
       </a>
         
       </div>

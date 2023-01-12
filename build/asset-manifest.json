@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.83ca2464.css",
+    "main.js": "/reactportfolio/static/js/main.8c76dcb6.js",
+    "static/media/evalueatsc.png": "/reactportfolio/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
+    "static/media/playdate.png": "/reactportfolio/static/media/playdate.9ba0d2b19429131fa280.png",
+    "static/media/Paul's CV 2022 .pdf": "/reactportfolio/static/media/Paul's CV 2022 .b360013e69368ce781e6.pdf",
+    "static/media/react.png": "/reactportfolio/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/finn-app.png": "/reactportfolio/static/media/finn-app.57196f7bc4fe45fc5b99.png",
+    "static/media/rentafit.jpg": "/reactportfolio/static/media/rentafit.6ad3d0ae4ea4c25052a9.jpg",
+    "static/media/csslogo.png": "/reactportfolio/static/media/csslogo.84de5dab5fab27f4161c.png",
+    "static/media/node.js.png": "/reactportfolio/static/media/node.js.8e341cc00e4ec40c6a27.png",
+    "static/media/headshot.svg": "/reactportfolio/static/media/headshot.2a2c4eff7bd5015c6212c705d8f81ea7.svg",
+    "index.html": "/reactportfolio/index.html",
+    "static/media/jslogo2.svg": "/reactportfolio/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
+    "main.83ca2464.css.map": "/reactportfolio/static/css/main.83ca2464.css.map",
+    "main.8c76dcb6.js.map": "/reactportfolio/static/js/main.8c76dcb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ca2464.css",
+    "static/js/main.8c76dcb6.js"
+  ]
+}
