@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 export const About = () => {
   useEffect(() => {
@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-[65vh] mt-20 bg-slate-900 text-gray-300 "
+      className="w-full h-[65vh] mt-10 bg-slate-900 text-gray-300 "
     >
       <div
         data-aos="fade-up"
@@ -17,7 +17,7 @@ export const About = () => {
       >
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-white">
+            <p className="text-4xl font-bold inline border-b-4 rounded-xl  border-white">
               About
             </p>
           </div>
@@ -32,10 +32,8 @@ export const About = () => {
           <div>
             <p>
               I'm a full stack developer who is passionate in writing clean
-              code and learning new technologies. I Recently graduated from the
-              Univeristy of Connecticut Coding Bootcamp. I also worked in finance and
-              tax; however, coding is where I believe I found my
-              passion. 
+              code and learning new technologies. I graduated from the
+              Univeristy of Connecticut Coding Bootcamp and obtained my Bachelor's Degree at Central Connecticut State University.
             </p>
           </div>
         </div>

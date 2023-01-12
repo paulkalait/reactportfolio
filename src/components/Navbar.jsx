@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import {
   FaBars,
   FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaGoogle,
 } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/pkblack.png";
 import { Link } from "react-scroll";
-import CV from "../assets/Paul's CV 2022 .pdf"
 import { motion } from 'framer-motion'
 
 const Navbar = () => {
@@ -17,10 +13,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[12%] flex justify-between items-center px-4 bg-black text-gray-500 navBar z-50">
+    <div className="fixed w-full h-[65px] flex justify-between items-center px-4 text-slate-900 navBar z-50">
       <div>
       <a href="home">
-      <img src={Logo} alt="Logo Image" style={{ width: "60px"}}/>
+      <img src={Logo} alt="LogoImage" style={{ width: "60px"}}/>
       </a>
         
       </div>
@@ -28,27 +24,27 @@ const Navbar = () => {
       {/* menu */}
 
       <ul className="menu-items hidden md:flex">
-        <li >
+        <li className="text-2xl" >
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="text-2xl">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
-        </li>
-        <li>
+        </li >
+        <li className="text-2xl">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="text-2xl">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="text-2xl">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -101,43 +97,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Social Icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 z-50">
-        <ul>
-          <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="flex justify-between items-center w-full text-white" target="_blank"
-              href="https://www.linkedin.com/in/paul-kalaitzidis-393555196"
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-            <a
-              className="flex justify-between items-center w-full text-white" target="_blank"
-              href="https://github.com/paulkalait"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white">
-            <a
-              className="flex justify-between items-center w-full text-red-500" target="_blank"
-              href="mailto:kalaitzidispaul@gmail.com"
-            >
-              Gmail <FaGoogle size={30} />
-            </a>
-          </li>
-          <li className="w-[150px] h-[60px] bg[#565f69] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-slate-400 duration-300">
-            <a
-              className="flex justify-between items-center w-full text-black" target="_blank"
-              href={CV}
-            >
-              CV <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+     
           
       
     </div>

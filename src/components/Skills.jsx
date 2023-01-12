@@ -14,11 +14,11 @@ const Skills = () => {
     }, [])
 
   return (
-    <div className="bg-slate-900 w-full mt-20" name="skills">
+    <div className="bg-slate-900 w-full mt-10" name="skills">
       {/* Container */}
       <div data-aos="fade-up" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-white">
+          <p className="text-4xl font-bold inline rounded-xl  border-b-4 border-white">
             Skills
           </p>
           <p className="py-8">Technologies I have worked with</p>
