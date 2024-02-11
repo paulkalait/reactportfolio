@@ -7,7 +7,7 @@ import {
   FaLinkedin,
   FaGoogle,
 } from "react-icons/fa";
-import CV from "../assets/Paul's CV 2022 .pdf"
+import CV from "../assets/Paul's Resume.pdf"
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
@@ -24,12 +24,11 @@ const Home = () => {
           I'm Paul Kalaitzidis
         </h1>
         <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
-          Full Stack Developer.
+          Tech Enthusiast 
         </h2>
         <p className="py-3 text-[#8892b0] mx-w-[700px]">
           {" "}
-          I am a full-developer currently attending the Univeristy of
-          Connecticut Coding Bootcamp.
+          I am a Data Analyst with diverse experience in Full Stack development, and a passion for finance and investment. I'm Always on the hunt for learning new technologies and improving my skill sets.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
@@ -42,9 +41,7 @@ const Home = () => {
           </Link>
         </div>
         </div>
-  
-        <div className="webdeveloper" style={{ backgroundImage: `url(${headshot})` }}>
-        </div>
+
       </div>
        {/* Social Icons */}
        <div className="hidden lg:flex fixed flex-col top-[35%] left-0 z-50">

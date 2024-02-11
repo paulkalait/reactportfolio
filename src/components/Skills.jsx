@@ -1,12 +1,12 @@
 import React, {useEffect} from "react";
-import HTML from "../assets/htmlbadge.png";
-import CSS from "../assets/csslogo.png";
-import JS from "../assets/jslogo2.svg";
+import JS from "../assets/JS-Logo.png";
 import MONGO from '../assets/mongodb1.png'
 import NODE from "../assets/node.js.png";
 import REACT from "../assets/react.png";
 import Aos from "aos";
+import Python from "../assets/Python-logo.png"
 import "aos/dist/aos.css"
+import SQL from "../assets/mysql.png"
 
 const Skills = () => {
   useEffect(() => {
@@ -26,16 +26,16 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 ">
-            <img className="w-20 mx-auto" src={HTML} alt="html icon" />
-            <p className="my-3">HTML</p>
+            <img className="w-20 mx-auto" src={Python} alt="html icon" />
+            <p className="my-3">Python</p>
           </div>
           <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
-            <img className="w-20 mx-auto" src={JS} alt="html icon" />
+            <img className="w-20 mx-auto rounded-md" src={JS} alt="html icon" />
             <p className="my-3">JS</p>
           </div>
           <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
-            <img className="w-20 mx-auto" src={CSS} alt="html icon" />
-            <p className="my-3">CSS</p>
+            <img className="w-20 mx-auto" src={SQL} alt="html icon" />
+            <p className="my-3">MySQL</p>
           </div>
           <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
             <img className="w-20 mx-auto" src={REACT} alt="html icon" />
